@@ -1,0 +1,82 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 1rem;
+  }
+.form {
+    display: flexbox;
+    width: 320px;
+    margin: 2rem auto
+  }
+  p {
+    display: flex;
+  }
+  label {
+    width: 150px;
+    line-height: 30px   
+  }
+  select {
+    width: 195px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0 10px;
+  }
+  input {
+    width: 170px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  :disabled{
+    opacity: .25;
+    cursor: not-allowed!important;
+  }
+  .button {
+    border: 0 solid;
+    cursor: pointer;
+    background-color: #1c3e94;
+    color: white;
+    display: inline-block;
+    font-family: The Sans B,Helvetica,Arial,sans-serif;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    min-width: 90%;
+    outline: none;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .btn-submit {
+      background-color: #0db14b;
+  }
+  .errorMsg {
+    color: #ef425e
+  }
+
+  .formData {
+    border: 1px solid #e6e4e4;
+    padding: .2rem 1rem;
+    border-radius: 4px;
+    font-size: .85rem;
+    margin-bottom: 2rem;
+  }
+  .editLink {
+    color: #1c3e94;
+    text-decoration: underline;     
+  }
+  .progressBar {
+    text-align: center;
+  }
